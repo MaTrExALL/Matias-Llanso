@@ -1,0 +1,12 @@
+.services {
+    height: 370px;
+    background: linear-gradient(180deg, #fff 50%, #3b4754 50%);
+}
+
+.titulo-services {
+    margin: 20px 0;
+    transition: all 300ms;
+}
+.titulo-services:hover{
+    transform: scale(1.25);
+}

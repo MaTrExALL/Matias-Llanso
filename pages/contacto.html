@@ -5,39 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartCoverings</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="..//assets/imagenes/SmartCoverings.ico">
 </head>
 <body>
 <header>
-    <a href="../index.html" class="logo">
-        <img src="../assets/imagenes/SmartCoverings.png"alt="Logo">
-    </a>
     <nav class="barra">
         <a href="..//index.html" class="nav-link">Inicio</a>
         <a href="productos.html" class="nav-link">Productos<a>
-        <a href="contacto.html" class="nav-link">Contacto</a>
-        <a href="Nosotros.html" class="nav-link">Nosotros</a>
+            <a href="Nosotros.html" class="nav-link">Nosotros</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
         <a href="Ayuda.html" class="nav-link">Ayuda</a>
     </nav>
 </header>
-<main class="main-contacto">
-    <p class="Donde-Estamos">
-        ¿Dónde Estamos?
-    </p>
-    <p class="Info-Contacto">
-    Contamos con un gran número de showrooms por por todo Capital Federal
-    </p>
-    <img src="../assets/imagenes/Mapa-Contacto.png"> <!--No sabia como dejarlo correctamente, así que puse una imagen en forma de muestra-->
-    </main>
-<!--Acá empieza el Footer-->
-<footer class="footer">
-    <div class="barra">
-    <img src="../assets/imagenes/barra.png" alt="barra-separadora">
+<main class="formulario">
+    <form>
+    <h2>Contacto</h2>
+    <div class="input-group">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+
+        <label for="name">Telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+
+        <label for="name" Nombre>Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+        <input class="btn" type="submit" value="Enviar">
     </div>
-      <div class="Logo1">
-        <img src="../assets/imagenes/SmartCoverings.png" alt="Logo">
-      </div>
-    <!--No puede corregir el espacio del Footer-->
+</form>
+</main>
+<footer class="footer">
+    <div class="grid">
+        <div class="textos-footer">
+            <h2 class="subtitulo">
+                Redes
+            </h2>
+        </div>
+        <div class="footer-item1">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+        <div class="footer-item2">
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="footer-item3">
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
 </footer>
+<script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous">
+</script>
 </body>
 </html>
-<!--Hay espacios vacios los cuales debe haber imagenes representativas, se puede ver eso en el moqup-->

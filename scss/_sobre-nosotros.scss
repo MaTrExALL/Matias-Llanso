@@ -1,0 +1,25 @@
+.sobre-nosotros {
+    background: #3b4754;
+    color: #ebebeb;
+    height: auto;
+    padding-bottom: 65px;
+
+}
+
+.textos-sobre-nosotros {
+    grid-column: 1/-1;
+    text-align: center;
+
+
+    .parrafo {
+        color: azure;
+        margin-top: 10px;
+    }
+
+}
+.nosotros-main{
+background-color: #cbcbd1;
+margin: 0 100px;
+border-radius: 15px;
+box-shadow: 0 0 20px rgba(94, 94, 94, 0.4);
+}
