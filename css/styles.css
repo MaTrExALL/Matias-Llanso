@@ -30,6 +30,7 @@ body {
 
 .parrafo {
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .header {
@@ -40,7 +41,7 @@ body {
   width: 100%;
   height: auto;
   grid-column: 7/13;
-  padding: 10px;
+  padding: 20px;
 }
 
 .img {
@@ -50,7 +51,7 @@ body {
 
 .texto-hero {
   grid-column: 2/7;
-  padding-right: 20px;
+padding: 20px;
 }
 .texto-hero p {
   text-align: justify;
@@ -76,8 +77,9 @@ body {
   height: 50px;
   background-color: #ebebeb;
   align-items: center;
-  padding: 25px;
+  padding: 20px 50px;
   text-decoration: none;
+
 }
 
 nav a {
@@ -120,15 +122,11 @@ a {
   margin-top: 10px;
 }
 
-.nosotros-main {
-  background-color: #cbcbd1;
-  margin: 0 100px;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(94, 94, 94, 0.4);
-}
+
 
 .mission {
   padding: 50px 0;
+  display: flex;
 }
 
 .texto-mission {
@@ -138,10 +136,7 @@ a {
   border-radius: 15px;
   margin: 20px 30px;
   transition: all 300ms;
-}
-
-.texto-mission:hover {
-  transform: scale(1.1);
+  font-size: 15px;
 }
 
 .img-mission {
@@ -211,7 +206,11 @@ footer {
   padding: 20px 10px;
   text-align: center;
   border-radius: 20px;
+  font-size: 13px;
+  
 }
+
+
 
 [class^="fa fa"] {
   font-size: 30px;
@@ -351,5 +350,23 @@ textarea {
 .btn:hover {
   transform: scale(1.15);
 }
-
-/*# sourceMappingURL=styles.css.map */
+.pregunta{
+  font-size: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+  text-decoration:underline;
+  
+}
+.respuestas{
+  font-size: 18px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+.preguntas-frecuentes{
+  font-size: 30px;
+  margin: 20px 80px;
+  padding: 20px;
+  background-color: #3b4754;
+  border-radius: 15px;
+  
+}
