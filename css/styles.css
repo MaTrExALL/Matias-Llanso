@@ -66,14 +66,15 @@ transition: opacity 300ms;
 main{
       max-width: 1200px;
       height: calc(100vh + 800px);
-      padding: 40px;
+      padding: 60px;
       margin: auto;
   }
 
 .cover{
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
+  padding-bottom: 20px;
 }
 .text__information-cover{
   width: 50%;
@@ -431,7 +432,7 @@ height: 430px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0,4);
@@ -462,4 +463,11 @@ html{
 }
 .titulo-producto{
   text-align: center;
+}
+.CARTA{
+font-size: 18px;
+padding-top: 20px;
+}
+.papa{
+  width: 30%;
 }
