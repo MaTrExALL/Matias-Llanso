@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,115 +7,84 @@
     <meta name="author" content="Matías Llanso">
     <meta name="keywords" content="SmartCoverings, smartcoverings, smartCoverings, SMARTCOVERINGS">
     <meta name="description" content="Venta de productos para remodelacion de interiores como exteriores">
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/8e4747a560.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/imagenes/SmartCoverings.ico">
 </head>
-
 <body>
-    <header class="header">
-        <nav class="barra">
-                    <a href="index.html" class="nav-link">Inicio</a>
-                    <a href="pages/productos.html" class="nav-link">Productos<a>
-                    <a href="pages/Nosotros.html" class="nav-link">Nosotros</a>
-                    <a href="pages/contacto.html" class="nav-link">Contacto</a>
-                    <a href="pages/Ayuda.html" class="nav-link">Ayuda</a>
-        </nav>
-        <div class="grid">
-            <div class="texto-hero">
-                <h1 class="weight-600">
-                    Renueva tus pisos <span class="weight-400">con nuestros novedosos productos</span>
-                </h1>
-                <p class="parrafo">SmartCoverings es más que una empresa de revestimientos, somos una familia y por eso
-                    sabemos lo importante que ser acompañado en un gran proyecto. Estamos empeñados en aconsejarte y
-                    guiarte para que puedas vivir esta hermosa experiencia.</p>
-                <a href="pages/productos.html" class="pdt">Productos</a>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <img src="assets/imagenes/SmartCoverings.png" alt="Logo de la empresa">
             </div>
-            <div class="img-hero">
-                <img src="assets/imagenes/Imagen1inicio.jpg" alt="una casa de Microcemento" class="img">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/productos.html">Productos</a></li>
+                        <li><a href="pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="pages/ayuda.html">Ayuda</a></li>
+                    </ul>
+                </nav>
             </div>
-
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <div class="header__contacto">
+                <a href="pages/contacto.html"><input type="button" class="btn__header-contacto" value="Contactarse"></a>
+            </div>
         </div>
-
     </header>
-    <main class="main">
-        <section class="services">
-            <section class="grid">
-                <div class="items">
-                    <div class="item">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                        <h3 class="titulo-services">Carrito</h3>
-                        <p class="guia">Dirígete a la sección <b>Productos</b> y selecciona</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
-                        <h3 class="titulo-services">Compra</h3>
-                        <p class="guia">Se aceptan varios métodos de pago; como <b>Visa,MasterCard,PayPal o Transferencia</b></p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <h3 class="titulo-services">Envío</h3>
-                        <p class="guia">Podrás elegir 2 métodos. El primero sería recibir la mercadería en tu casa en un lapzo de
-                            48hs. La segunda opción es que los retires en uno de nuestros depósitos más cercanos en el
-                            mismo día de la compra</p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section class="sobre-nosotros">
-            <div class="grid">
-                <div class="textos-sobre-nosotros">
-                    <h2 class="subtitulo">
-                        About us
-                    </h2>
+<main>
+    <div class="cover">
+        <div class="text__information-cover">
+                <h1>RENUEVA TUS PISOS CON NUESTROS NOVEDOSOS PRODUCTOS</h1>
+                
+                <p>SmartCoverings es más que una empresa de revestimientos, somos una familia y por eso sabemos lo importante que ser acompañado en un gran proyecto. Estamos empeñados en aconsejarte y guiarte para que puedas vivir esta hermosa experiencia.</p>
+                <div class="buttons__cover">
+                   <a href="pages/productos.html"><input type="button" class="btn__productos-cover" value="Productos"></a> 
+                    <a href="pages/ayuda.html"><input type="button" class="btn__ayuda-cover" value="Preguntas frecuentes"></a>
                 </div>
             </div>
-        </section>
-        <section class="mission grid">
-            <div class="texto-mission">
-                <div class="texto-mission">
-                    <h3>Nosotros</h3>
-                    <p>Tenemos 5 años de antiguedad en el mundo de los revestimientos</p>
+                <div class="image__cover">
+                    <img src="assets/imagenes/Muestra Micro.jpg" alt="Imagen ilustrativa de una habitacion hecha con microcemento">
                 </div>
-                <div class="texto-mission">
-                    <h3>Calidad</h3>
-                    <p>Priorizamos la calidad en nuestros productos y en nuestra atención</p>
+        
+    </div>
+    <section class="services">
+        <section class="grid">
+            <div class="items">
+                <div class="item">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <h3 class="titulo-services">Carrito</h3>
+                    <p class="guia">Dirígete a la sección <b>Productos</b> y selecciona</p>
                 </div>
-                <div class="texto-mission">
-                    <h3>Garantía</h3>
-                    <p>Estamos tan seguros de nuestro trabajo, que ofrecemos garantía hasta 50 años despues de la
-                        aplicación</p>
+                <div class="item">
+                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                    <h3 class="titulo-services">Medios de Pago</h3>
+                    <p class="guia">Visa, MasterCard, PayPal o Transferencia</p>
                 </div>
-            </div>
-            <div class="img-mission">
-                <img src="assets/imagenes/Aplicando Microcemento.jpg" alt="Una persona aplicando Microcemento" class="img">
+                <div class="item">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h3 class="titulo-services">Envío</h3>
+                    <p class="guia">Es momento de la entrega. Puedes optar por recibirlo a domicilio en 48hs o ir vos mismo a una de nuestras oficinas</p>
+                </div>
             </div>
         </section>
-    </main>
-    <footer class="footer">
-        <div class="grid">
-            <div class="textos-footer">
-                <h2 class="subtitulo">
-                    Redes
-                </h2>
-            </div>
-            <div class="footer-item1">
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </div>
-            <div class="footer-item2">
-                <a href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-            <div class="footer-item3">
-                <a href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+    </section>
+</main>
+<footer>
+    <div class="container__footer">
+        <div class="footer__content">
+            <h3>Contactanos</h3>
+            <p>Email:smartcoverings@smartco.com</p>
+            <p>Teléfono:+54 113322-5718</p>
+            <p>Dirección Showroom: Av.Cabildo 1000</p>
+            <p>Dirección Fábrica: Morón 375</p>
         </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous">
-    </script>
+
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous">
+</script>
+<script src="script.js"></script>
 </body>
 </html>
