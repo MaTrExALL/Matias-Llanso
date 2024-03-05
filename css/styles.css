@@ -463,11 +463,23 @@ html{
 }
 .titulo-producto{
   text-align: center;
+  
 }
 .CARTA{
-font-size: 18px;
-padding-top: 20px;
+font-size: 13px;
+padding: 30px;
+align-items: center;
+justify-content: center;
+background-color: #c5c3c3;
+border-radius: 15px;
+margin: 10px;
+
 }
 .papa{
-  width: 30%;
+  width: 20%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  
 }
