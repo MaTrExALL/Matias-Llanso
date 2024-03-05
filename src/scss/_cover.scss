@@ -1,0 +1,60 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    }
+    .text__information-cover{
+    width: 50%;
+    }
+    .text__information-cover h1{
+    font-size: 50px;
+    }
+    .text__information-cover p{
+    font-size: 18px;
+    margin-top: 40px;
+    }
+    .image__cover{
+    width: 50%;
+    }
+    .image__cover img{
+    width: 100%;
+    margin-top: -40px;
+    }
+    .buttons__cover{
+    display:  flex;
+    flex-direction: row;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    }
+    .btn__productos-cover{
+    padding: 14px 40px;
+    border: none;
+    color: #dadada;
+    background-color: #2e3237;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 300ms;
+    }
+    .btn__productos-cover:hover{
+    background-color: rgb(183, 183, 183) ;
+    color: rgb(16, 16, 16);
+    }
+    
+    .btn__ayuda-cover{
+    padding: 14px 40px;
+    border: none;
+    color: #dadada;
+    background-color: #2e3237;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 300ms;
+    }
+    .btn__ayuda-cover:hover{
+    background-color: rgb(183, 183, 183) ;
+    color: rgb(16, 16, 16);
+    }
