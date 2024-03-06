@@ -1,4 +1,4 @@
-@media (max-width: 600px) and (min-width: 300px) {
+@media (max-width: 600px) {
   .container__productos {
     width: 70%;
     flex-direction: column;
@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   max-width: 1100px;
-  font-size: 8px;
+  font-size: 0.87rem;
   gap: 1.5rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .CARTA {
-  font-size: 13px;
+  font-size: 0.85rem;
   padding: 30px;
   align-items: center;
   justify-content: center;
@@ -90,12 +90,12 @@ form {
 
 h2 {
   color: #2e3237;
-  font-size: 35px;
+  font-size: 2rem;
 }
 
 label {
   color: #3b4754;
-  font-size: 15px;
+  font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -123,13 +123,13 @@ input::placeholder, textarea::placeholder {
 
 .form-text a {
   color: #0f579f;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
 }
 
 .btn__enviar {
-  font-size: 16px;
+  font-size: 1rem;
   color: #f4f8f8;
   border: 0;
   border-radius: 25px;
@@ -165,11 +165,11 @@ input::placeholder, textarea::placeholder {
 }
 
 .text__information-cover h1 {
-  font-size: 50px;
+  font-size: 3.3rem;
 }
 
 .text__information-cover p {
-  font-size: 18px;
+  font-size: 1.08rem;
   margin-top: 40px;
 }
 
@@ -195,7 +195,7 @@ input::placeholder, textarea::placeholder {
   color: #dadada;
   background-color: #2e3237;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.01rem;
   cursor: pointer;
   margin: 10px;
   transition: background 300ms;
@@ -212,7 +212,7 @@ input::placeholder, textarea::placeholder {
   color: #dadada;
   background-color: #2e3237;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   margin: 10px;
   transition: background 300ms;
@@ -249,7 +249,7 @@ input::placeholder, textarea::placeholder {
 
 .pie-pagina .grupo-1 .box h2 {
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 .pie-pagina .grupo-1 .box p {
@@ -312,7 +312,7 @@ header {
 }
 
 .menu nav ul li a {
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   color: #2e3237;
   transition: opacity 300ms;
@@ -328,7 +328,7 @@ header {
   background-color: #2e3237;
   color: azure;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background, color, 300ms;
 }
@@ -344,7 +344,6 @@ header {
 
 main {
   max-width: 1200px;
-  height: calc(100vh + 800px);
   padding: 60px;
   margin: auto;
 }
@@ -358,7 +357,7 @@ main {
   #icon_menu {
     display: block;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .header__contacto {
     display: none;
@@ -385,10 +384,10 @@ main {
     height: 235px;
   }
   .text__information-cover h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .text__information-cover p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 @media (max-width: 920px) {
@@ -417,7 +416,7 @@ main {
 }
 
 [class^="fa fa"] {
-  font-size: 30px;
+  font-size: 1.9rem;
   text-align: center;
 }
 
@@ -459,8 +458,14 @@ body {
   background-color: #f3f3f3;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
 }
 
+@media (max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -470,8 +475,7 @@ img {
 }
 
 .services {
-  height: 370px;
-  background: linear-gradient(180deg, #f4f8f8 50%, #3b4754 50%);
+  background: linear-gradient(180deg, #f3f3f3 50%, #3b4754 50%);
 }
 
 .titulo-services {
@@ -487,9 +491,8 @@ img {
   grid-column: 1/-1;
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -499,20 +502,20 @@ img {
   width: 30%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  height: 230px;
   padding: 20px 10px;
   text-align: center;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 0.9rem;
 }
 
-@media (max-width: 600px) and (min-width: 300px) {
+@media (max-width: 600px) {
   .item {
-    font-size: 10px;
+    font-size: 0.7rem;
     width: 80%;
     margin-bottom: 1.5rem;
   }
   .items {
     flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */

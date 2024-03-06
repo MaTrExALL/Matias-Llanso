@@ -1,6 +1,5 @@
 main{
     max-width: 1200px;
-    height: calc(100vh + 800px);
     padding: 60px;
     margin: auto;
 }
@@ -19,7 +18,7 @@ main{
 #icon_menu{
     display: block;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .header__contacto{
@@ -51,11 +50,11 @@ main{
 }
 
 .text__information-cover h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .text__information-cover p{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -91,7 +90,7 @@ align-items: center;
 
 
 [class^="fa fa"] {
-font-size: 30px;
+font-size: 1.9rem;
 text-align: center;
 }
 
